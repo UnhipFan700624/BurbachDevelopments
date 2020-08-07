@@ -374,8 +374,6 @@ D:\Projects\BurbachDevelopments\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAn
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.csprojAssemblyReference.cache
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.AssemblyInfoInputs.cache
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.AssemblyInfo.cs
-D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.csproj.CoreCompileInputs.cache
-D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.RazorAssemblyInfo.cache
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.RazorAssemblyInfo.cs
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.TagHelpers.input.cache
@@ -401,3 +399,5 @@ D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\staticwebassets\BurbachD
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.dll
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.pdb
 D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.genruntimeconfig.cache
+D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.csproj.CoreCompileInputs.cache
+D:\Projects\BurbachDevelopments\obj\Debug\netcoreapp3.1\BurbachDevelopments.MvcApplicationPartsAssemblyInfo.cache
