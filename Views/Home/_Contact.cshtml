@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<!-- Modal content-->
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">@ViewData["Title"]</h4>
+    </div>
+    <div class="modal-body">
+
+        <form class="contact-form" method="post" action="#">
+            <div class="col-4 float-left">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="contact-textbox" />
+            </div>
+            <div class="col-4 float-left">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="contact-textbox" />
+            </div>
+            <div />
+            <div class="message-box">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" class="contact-textbox"></textarea>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" class="btn btn-info navbar-btn" /></li>
+                <li><input type="reset" value="Reset" class="btn btn-default navbar-btn border text-light" /></li>
+            </ul>
+            <br />
+        </form>
+        <div>
+            <ul class="icons">
+                <li><a href="#" class="float-left"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="float-left"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="float-left"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="float-left"><span class="label">GitHub</span></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+</div>

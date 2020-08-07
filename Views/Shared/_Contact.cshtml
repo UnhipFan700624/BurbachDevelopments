@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Contact";
+}
+    <div class="modal fade" id="myModal" tabindex="1" role="dialog">
+        <h2 class="major">@ViewData["Title"]</h2>
+        <form class="contact-form" method="post" action="#">
+            <div class="col-4 float-left">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="contact-textbox" />
+            </div>
+            <div class="col-4 float-left">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="contact-textbox" />
+            </div>
+            <div />
+            <div class="message-box">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" class="contact-textbox"></textarea>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" class="btn btn-info navbar-btn" /></li>
+                <li><input type="reset" value="Reset" class="btn btn-default navbar-btn border text-light" /></li>
+            </ul>
+            <br />
+        </form>
+        <div>
+            <ul class="icons">
+                <li><a href="#" class="float-left"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="float-left"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="float-left"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="float-left"><span class="label">GitHub</span></a></li>
+            </ul>
+        </div>
+    </div>

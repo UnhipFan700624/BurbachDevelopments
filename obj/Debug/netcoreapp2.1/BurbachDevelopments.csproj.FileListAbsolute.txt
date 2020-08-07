@@ -1,0 +1,4 @@
+C:\Users\devin\source\repos\Test\obj\Debug\netcoreapp2.1\BurbachDevelopments.csprojAssemblyReference.cache
+C:\Users\devin\source\repos\Test\obj\Debug\netcoreapp2.1\BurbachDevelopments.csproj.CoreCompileInputs.cache
+C:\Users\devin\source\repos\Test\obj\Debug\netcoreapp2.1\BurbachDevelopments.AssemblyInfoInputs.cache
+C:\Users\devin\source\repos\Test\obj\Debug\netcoreapp2.1\BurbachDevelopments.AssemblyInfo.cs

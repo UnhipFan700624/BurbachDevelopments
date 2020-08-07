@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Burbach Developments</title>
+    <link rel="stylesheet" href="~/css/main.css" />
+    <noscript><link rel="stylesheet" href="~/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1>Burbach Developments</h1>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <main role="main" class="pb-3">
+
+                <!-- Menu -->
+                <nav id="menu">
+                    <div class="inner">
+                        <h3>Menu</h3>
+                        <ul class="links">
+                            <li><a href="#banner">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="~/docs/devin-burbach-resume.pdf">Resume</a></li>
+                            <li ><a href="#footer">Contact Me</a></li>
+                        </ul>
+                        <a href="#" class="close">Close</a>
+                    </div>
+                </nav>
+
+                @RenderBody()
+            <a href="#menu"><div id="MobileMenu" title="menu" class="btn btn-primary btn-circle" href="#menu" ></div></a>
+            </main>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery.scrollex.min.js"></script>
+    <script src="~/js/browser.min.js"></script>
+    <script src="~/js/breakpoints.min.js"></script>
+    <script src="~/js/util.js"></script>
+    <script src="~/js/main.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myContactModal");
+    var modal1 = document.getElementById("myPrivacyModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myContact");
+    var btn1 = document.getElementById("myPrivacy");
+    var Intro = document.getElementById("NavIntro");
+    var Work = document.getElementById("NavWork");
+    var About = document.getElementById("NavAbout");
+    var MobileMenu = document.getElementById("MobileMenu");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    var span1 = document.getElementsByClassName("close")[1];
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    //window.onload = function () { MobileMenu.style.display = "block"; };
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    btn1.onclick = function () {
+        modal1.style.display = "block";
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+        modal1.style.display = "none";
+    }
+
+    span1.onclick = function () {
+        modal1.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        if (event.target == modal1) {
+            modal1.style.display = "none";
+        }
+    }
+
+    Intro.onclick = function () {
+        var intro = document.querySelector("#intro");
+        intro.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    Work.onclick = function () {
+        var intro = document.querySelector("#work");
+        intro.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    About.onclick = function () {
+        var intro = document.querySelector("#about");
+        intro.scrollIntoView({ behavior: 'smooth', block: 'start'});
+    }
+
+    
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        var header = document.querySelector("#banner");
+        header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+</script>
